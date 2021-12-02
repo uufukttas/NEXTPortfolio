@@ -1,6 +1,6 @@
 import 'tailwindcss/tailwind.css'
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
+import Navigation from "../Components/Navigation";
+import Footer from "../Components/Footer";
 
 function MyApp({Component, pageProps}) {
     return <>
