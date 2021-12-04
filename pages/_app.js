@@ -1,3 +1,4 @@
+import '../styles/globals.css'
 import 'tailwindcss/tailwind.css'
 import Navigation from "../Components/Navigation";
 import Footer from "../Components/Footer";
