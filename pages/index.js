@@ -2,6 +2,12 @@ import Head from 'next/head'
 import About from "../Components/About";
 
 export default function Home() {
+  window.dataLayer = window.dataLayer || []
+
+  const gtag = () => {
+    window.dataLayer.push(arguments)
+  }
+
   return (
     <div className="space-y-14 lg:space-y-24">
       <Head>
@@ -12,13 +18,7 @@ export default function Home() {
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-RKS4T2VK5M');
-          `}
+          {gtag('js', new Date()) && gtag('config', 'G-RKS4T2VK5M')}
         </Script>
       </Head>
 
