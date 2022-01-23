@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     useEffect(() => {
         ReactGA.initialize('G-RKS4T2VK5M');
         ReactGA.pageview(window.location.pathname + window.location.search);
-    });
+    }, []);
 
     return <>
             <Navigation/>
