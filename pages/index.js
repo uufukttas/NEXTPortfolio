@@ -1,7 +1,7 @@
+import { useEffect } from 'react'
 import Head from 'next/head'
 import About from "../Components/About";
 import ReactGA from 'react-ga';
-import { useEffect } from 'react';
 
 export default function Home() {
 
