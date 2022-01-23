@@ -5,10 +5,10 @@ import ReactGA from 'react-ga';
 
 export default function Home() {
 
-    // useEffect(() => {
-    //   ReactGA.initialize('G-RKS4T2VK5M');
-    //   ReactGA.pageview(window.location.pathname + window.location.search);
-    // }, [])
+  useEffect(() => {
+    ReactGA.initialize('G-RKS4T2VK5M');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   return (
     <div className="space-y-14 lg:space-y-24">
