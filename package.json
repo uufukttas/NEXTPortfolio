@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && tailwindcss init",
-    "start": "next start"
+    "start": "next start",
+    "clean-start": "rm -rf node_modules && yarn install && rm -rf $TMPDIR/react* && npm start --reset-cache"
   },
   "dependencies": {
     "next": "latest",
