@@ -3,7 +3,6 @@ import Script from 'next/script'
 import About from "../Components/About";
 
 export default function Home() {
-  window.dataLayer = window.dataLayer || []
 
   const gtag = () => {
     window.dataLayer.push(arguments)
@@ -19,7 +18,13 @@ export default function Home() {
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
-          {gtag('js', new Date()) && gtag('config', 'G-RKS4T2VK5M')}
+          {
+            typeof window !== 'undefined'
+            ? window.dataLayer = window.dataLayer || []
+              && gtag('js', new Date())
+              && gtag('config', 'G-RKS4T2VK5M')
+            : null
+          }
         </Script>
       </Head>
 
