@@ -21,5 +21,7 @@
     "postcss": "^8.3.5",
     "preact-cli": "^3.0.0-rc.18",
     "tailwindcss": "^2.2.19"
-  }
+  },
+  "proxy": "https://medium.com/feed/@uufukttas"
+
 }
