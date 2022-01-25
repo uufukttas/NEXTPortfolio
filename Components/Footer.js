@@ -1,4 +1,5 @@
 import React from "react";
+import Blogs from './Blogs'
 
 const Footer = () => {
     return (
@@ -42,6 +43,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <Blogs/>
         </div>
     )
 }
