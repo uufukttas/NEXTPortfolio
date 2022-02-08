@@ -6,6 +6,7 @@ import feedback from "../public/FeedbackApp.png"
 function Works() {
   return (
     <div className='flex max-w-4xl mx-auto mt-16 antialiased'>
+        <div className='shadow-azure'>
         <Image
             src={feedback}
             alt="FeedbackApp"
@@ -15,6 +16,7 @@ function Works() {
             height={250}
             placeholder="blur"
         />
+        </div>
         <div>
             <img src=''/>
         </div>
