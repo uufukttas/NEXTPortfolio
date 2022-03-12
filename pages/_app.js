@@ -2,7 +2,6 @@ import '../styles/globals.css'
 import 'tailwindcss/tailwind.css'
 import React from 'react'
 import Router from "next/router"
-import { route } from 'next/dist/server/router';
 import { useRouter } from 'next/router'
 import { useEffect } from 'react';
 import * as ga from '../Components/ga/lib/Analytics'
@@ -22,12 +21,13 @@ function MyApp({ Component, pageProps }) {
     }
   }, [router.events]);
 
-    return 
-    <>
-      <Navigation/>
-      <Component {...pageProps} />
-      <Footer/>
-    </>
+    return (
+      <>
+        <Navigation/>
+        <Component {...pageProps} />
+        <Footer/>
+      </>
+    )
 }
 
 export default MyApp
