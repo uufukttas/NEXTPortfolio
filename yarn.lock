@@ -1091,9 +1091,9 @@
   "resolved" "https://registry.npmjs.org/@next/react-refresh-utils/-/react-refresh-utils-12.0.6.tgz"
   "version" "12.0.6"
 
-"@next/swc-darwin-x64@12.0.6":
-  "integrity" "sha512-HYfbUlG4ebcqol5xnhqXPsgfdnYk9knDW8RD//gvdTc42ER5JyLoZxwhEj+1cCvhwglA9gKXopqyjoDqqqJ4FQ=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-12.0.6.tgz"
+"@next/swc-darwin-arm64@12.0.6":
+  "integrity" "sha512-uPC5NViFYgggffTWXtcI8kHrXZPLfpS5NECtmajURgs4SMRH9dE7l+M1HvmfkyirnhI49l/MuQ5B3h47UN80Bg=="
+  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-12.0.6.tgz"
   "version" "12.0.6"
 
 "@nodelib/fs.scandir@2.1.5":
