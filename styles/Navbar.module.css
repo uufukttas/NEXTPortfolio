@@ -61,9 +61,11 @@
         left: 0;
         flex-direction: column;
         width: 100%;
-        height: calc(100vh - 77px);
-        background-color: white;
+        height: 112px;
         border-top: 1px solid black;
+        background-color: rgb(38 66 175 / 98%);
+        height: 112px;
+        color: white;
       }
       .navigation-menu-list-item {
         text-align: center;
