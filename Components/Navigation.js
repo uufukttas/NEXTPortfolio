@@ -12,13 +12,13 @@ const Navigation = () => {
                         UFUK TAS
                     </a>
                 </Link>
-                {/* <Link href="/projects">
+                <Link href="/projects">
                     <a
                         className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}
                     >
                         PROJECTS
                     </a>
-                </Link> */}
+                </Link>
             </div>
         </div>
     )
