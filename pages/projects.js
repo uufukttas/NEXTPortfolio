@@ -14,7 +14,7 @@ function Projects() {
                                     <li key={project.id} className={`${ProjectStyles['project-link']}`}>
                                         <a href={project.url} key={project.id}>
                                             <Image
-                                                src={`/${project.image}`}
+                                                src={`${project.image}`}
                                                 width={1280}
                                                 height={720}
 
