@@ -1,37 +1,15 @@
-import Image from 'next/image'
-import projects from '../Constants/Projects/projects.json'
-import ProjectStyles from '../styles/Project.module.css';
+import Head from 'next/head'
+import Projects from '../Components/Projects';
 
-function Projects() {
-    return (
-        <main className="max-w-4xl mx-auto mt-16 antialiased">
-            <div className="container px-4 mx-auto">
-                <div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">
-                    <div className="lg:px-4 lg:mt-12 w-full">
-                        <ul className="block lg:flex items-stretch justify-between">
-                            {
-                                projects.map((project) => (
-                                    <li key={project.id} className={`${ProjectStyles['project-link']}`}>
-                                        <a href={project.url} key={project.id}>
-                                            <Image
-                                                src={`/${project.image}`}
-                                                width={1280}
-                                                height={720}
+export default function ProjectPage() {
+  return (
+    <div className="space-y-14 lg:space-y-24">
+      <Head>
+        <title>UFUK TAS | PROJECTS</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-                                            />
-                                            <div className={`${ProjectStyles['project-content']}`}>&#128269;</div>
-                                            <p className='font-bold'>{project.name}</p>
-                                            <p>{project.description}</p>
-                                        </a>
-                                    </li>
-                                ))
-                            }
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </main>
-    )
+      <Projects/>
+    </div>
+  )
 }
-
-export default Projects;

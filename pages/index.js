@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import About from "../Components/About";
+import Projects from '../Components/Projects';
 
 export default function Home() {
   return (
