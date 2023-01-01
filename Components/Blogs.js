@@ -10,9 +10,9 @@ function Projects() {
                         <ul className="block lg:flex flex-col items-stretch justify-between">
                             {
                                 blogs.map((blog) => (
-                                    <li key={blog.id} className="py-3">
+                                    <li key={blog.id} className="py-5 lg:py-3">
                                         <a href={blog.url}>
-                                            <p className="font-bold">{blog.name}</p>
+                                            <p className="text-left font-bold">{blog.name}</p>
                                             <p className="project-description truncate">{blog.description}</p>
                                         </a>
                                         <div className="h-1 bg-yellow-500"></div>
