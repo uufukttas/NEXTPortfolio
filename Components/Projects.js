@@ -15,7 +15,7 @@ function Projects() {
                                     <li key={project.id} className={`${ProjectStyles['project-link']}`}>
                                         <a href={project.url}>
                                             <Image
-                                                src='/../../assets/todolist.png'
+                                                src={project.image}
                                                 width={1280}
                                                 height={720}
 
