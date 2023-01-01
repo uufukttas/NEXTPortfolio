@@ -39,6 +39,14 @@ const Footer = () => {
                         >
                             Medium
                         </a>
+                        <a
+                            href="mailto:uufukttas@gmail.com"
+                            className={"transition-colors hover:text-yellow-500"}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Gmail
+                        </a>
                     </div>
                 </div>
             </div>
