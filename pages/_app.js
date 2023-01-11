@@ -21,13 +21,13 @@ function MyApp({ Component, pageProps }) {
     }
   }, [router.events]);
 
-    return (
-      <>
-        <Navigation/>
-        <Component {...pageProps} />
-        <Footer/>
-      </>
-    )
+  return (
+    <>
+      <Navigation />
+      <Component {...pageProps} />
+      <Footer />
+    </>
+  )
 }
 
 export default MyApp

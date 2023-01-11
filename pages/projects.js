@@ -9,7 +9,7 @@ export default function ProjectPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Projects/>
+      <Projects />
     </div>
   )
 }

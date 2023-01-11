@@ -6,9 +6,9 @@ const Navigation = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(true);
 
     useEffect(() => {
-      setIsNavExpanded(!isNavExpanded);
+        setIsNavExpanded(!isNavExpanded);
     }, []);
-    
+
     return (
         <div className="sticky top-0 z-20 py-2 bg-white md:py-6 md:mb-6 dark:bg-black">
             <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
@@ -36,10 +36,10 @@ const Navigation = () => {
                 </button>
                 <div className={`${NavbarStyles['navigation-menu']} lg:w-1/4 `}>
                     <ul className={`${NavbarStyles['navigation-menu-list']} ${(isNavExpanded ? NavbarStyles.expanded : "")} lg:flex lg:justify-between`}>
-                        <li className={`${NavbarStyles['navigation-menu-list-item']} py-4 lg:p-0`} onClick={() => {setIsNavExpanded(!isNavExpanded);}}>
+                        <li className={`${NavbarStyles['navigation-menu-list-item']} py-4 lg:p-0`} onClick={() => { setIsNavExpanded(!isNavExpanded); }}>
                             <Link href="/projects" className={`${NavbarStyles['navigation-menu-list-item-link']} font-medium tracking-wider transition-colors text-gray-900 hover:text-yellow-500 uppercase dark:text-white`}>PROJECTS</Link>
                         </li>
-                        <li className={`${NavbarStyles['navigation-menu-list-item']} py-4 lg:p-0`} onClick={() => { setIsNavExpanded(!isNavExpanded);}}>
+                        <li className={`${NavbarStyles['navigation-menu-list-item']} py-4 lg:p-0`} onClick={() => { setIsNavExpanded(!isNavExpanded); }}>
                             <Link href="/blogs" className={`${NavbarStyles['navigation-menu-list-item-link']} font-medium tracking-wider transition-colors text-gray-900 hover:text-yellow-500 uppercase dark:text-white`}>BLOGS </Link>
                         </li>
                     </ul>
