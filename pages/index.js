@@ -4,7 +4,7 @@ import About from "../Components/About";
 export default function Home() {
   return (
     <div className="space-y-14 lg:space-y-24">
-      <Head lang="en">
+      <Head>
         <title>UFUK TAS</title>
         <link rel="icon" href="/favicon.ico" />
         <meta charset="UTF-8" />
