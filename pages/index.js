@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>UFUK TAS</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="description" content="I am Ufuk Tas. I am Frontend Developer. You can see more than inside of my portfolio page." />
         <meta name="keywords" content="HTML, CSS, JavaScript, React, Next JS" />
         <meta name="author" content="Ufuk Tas" />
