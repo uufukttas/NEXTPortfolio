@@ -18,7 +18,7 @@ const Navigation = () => {
                     </h1>
                 </Link>
 
-                <button name="navigation_button" className={`${NavbarStyles.hamburger}`} onClick={() => {
+                <button aria-label="navigation_button" className={`${NavbarStyles.hamburger}`} onClick={() => {
                     setIsNavExpanded(!isNavExpanded);
                 }}>
                     <svg
