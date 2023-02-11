@@ -7,9 +7,9 @@
     },
     {
         "blogId": 2,
-        "name": "Git, Github Nedir?",
-        "url": "https://uufukttas.medium.com/git-github-nedir-f42f7fdb296",
-        "description": "Git, bir önceki blog yazımda da belirttiğim gibi bir versiyon kontrol sistemidir. Yani yazdığımız projelerin kodlarının adım adım, aşama aşama takip edilmesini ve ..."
+        "name": "What Is The GIT?",
+        "url": "https://uufukttas.medium.com/what-is-the-git-c9b68b14600",
+        "description": "Git is a version control system commonly used by software developers to manage and track changes in their projects. Git allows multiple developers to work on the same project at the same time, while avoiding conflicting codes in projects. Git is a directory or repository where the project stores all…"
     },
     {
         "blogId": 3,
