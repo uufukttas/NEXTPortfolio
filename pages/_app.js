@@ -23,9 +23,11 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <Navigation />
-      <Component {...pageProps} />
-      <Footer />
+      <div className='main h-screen'>
+        <Navigation />
+        <Component {...pageProps} />
+        <Footer />
+      </div>
     </>
   )
 }

@@ -4,7 +4,7 @@ import profile from "../public/profile.jpeg"
 
 const About = () => {
     return (
-        <main className="max-w-4xl mx-auto mt-16 antialiased">
+        <main className="max-w-4xl mx-auto antialiased py-16 lg:py-36">
             <div className="container px-4 mx-auto">
                 <div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">
                     <div className="lg:px-4 lg:mt-12 ">
@@ -20,7 +20,7 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
+                    <div className="flex flex-shrink-0 lg:mt-12 lg:px-4 mb-10 justify-center items-center">
                         <Image
                             src={profile}
                             alt="Profile"

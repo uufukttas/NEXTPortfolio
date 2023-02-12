@@ -62,10 +62,9 @@
     left: 0;
     flex-direction: column;
     width: 100%;
-    height: 112px;
+    height: 208px;
     border-top: 1px solid black;
-    background-color: rgb(38 66 175 / 98%);
-    height: 112px;
+    background-color: rgb(38 66 175 / 90%);
     color: white;
   }
 
@@ -75,7 +74,7 @@
   }
 
   .navigation-menu-list-item-link {
-    color: black;
+    color: white;
     width: 100%;
     padding: 1.5rem 0;
   }
