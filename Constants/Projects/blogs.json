@@ -12,43 +12,43 @@
         "description": "Git is a version control system commonly used by software developers to manage and track changes in their projects. Git allows multiple developers to work on the same project at the same time, while avoiding conflicting codes in projects. Git is a directory or repository where the project stores all…"
     },
     {
-        "blogId": 3,
-        "name": "Veri Yapıları Nedir?",
-        "url": "https://uufukttas.medium.com/veri-yap%C4%B1lar%C4%B1-nedir-873da17aad68",
-        "description": "Veri yapılarına girmeden önce, algoritmanın ve verinin ne olduğunu belirtmemiz gerekir. Algoritma, bir problemi çözmek için izlenmesi gereken adımların tasarımıdır. ..."
+        "blogId": 4,
+        "name": "What Is The Github",
+        "url": "https://uufukttas.medium.com/what-is-the-github-d5cb02c2eced",
+        "description": "Github is a web-based platform that provides hosting for software development and version control using Git. It was launched in 2008 and is now one of the largest online communities for developers and software enthusiasts. Github allows developers to store and manage their code and collaborate with others on projects…"
     },
     {
-        "blogId": 4,
+        "blogId": 3,
         "name": "Veri Yapıları Nedir? - 2",
         "url": "https://uufukttas.medium.com/veri-yap%C4%B1lar%C4%B1-nedir-2-22d38e47239",
         "description": "Önceki blogda, birkaç veri yapısından bahsettik. Şimdi ağaç veri yapıları ile devam edeceğiz ve veri yapıları konusunu bitireceğiz. ..."
     },
     {
-        "blogId": 5,
+        "blogId": 4,
         "name": "What Is The Web Development?",
         "url": "https: //uufukttas.medium.com/what-is-the-web-development-33d67c937076",
         "description": "Web development is an internet technology that has been developing rapidly with the developing technology.Thanks to the web pages on the Internet we find the solution of a problem. ..."
     },
     {
-        "blogId": 6,
+        "blogId": 5,
         "name": "CSS Nedir?",
         "url": "https://uufukttas.medium.com/css-nedir-504d7d5dcf51",
         "description": "Kısaltmanın açılımı Cascading Style Sheet olan, Türkçesi ise Basamaklı Stil Şablonu olarak bilinen CSS, genellikle web geliştirmesi ..."
     },
     {
-        "blogId": 7,
+        "blogId": 6,
         "name": "Flexbox Nedir?",
         "url": "https://uufukttas.medium.com/flexbox-nedi%CC%87r-e5aac436c48c",
         "description": "CSS Flexible Box Layout, yani kısaca Flexbox bir katman modelidir. HTML ögelerini sayfa içerisinde konumlandırma yöntemlerinden birisi olan Flexbox, ..."
     },
     {
-        "blogId": 8,
+        "blogId": 7,
         "name": "Grid Nedir?",
         "url": "https://uufukttas.medium.com/gri%CC%87d-nedi%CC%87r-695ee2da8599",
         "description": "Bir önceki yazımızda flexbox’tan ve flexbox’ın elementi site içinde konumlandırmasından bahsetmiştik. Şimdi de bir diğer element konumlandırma metodu Grid’den bahsediyor olacağız. ..."
     },
     {
-        "blogId": 9,
+        "blogId": 8,
         "name": "Webpack Nedir?",
         "url": "https://uufukttas.medium.com/webpack-nedir-8839d29c0c4a",
         "description": "Webpack Node.js tabanlı, modern JavaScript uygulamaları için üretilen pek çok bağımlılığa (dependency) sahip paketleri / ...."
