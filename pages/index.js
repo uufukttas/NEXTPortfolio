@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import About from "../Components/About";
+import Main from "../Components/Main";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
-      <About />
+      <Main />
     </div>
   )
 }
